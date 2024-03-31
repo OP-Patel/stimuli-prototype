@@ -106,6 +106,15 @@ body {
     padding: 20px;
     background-color: #FBFDF4;
 }
+
+.outer-wrapper {
+    max-width: 1200px; /* Adjust the width as needed */
+    height: auto;
+    margin: 0 auto; /* Centers the section */
+    padding: 20px;
+    background-color: #FBFDF4;
+}
+  
   
 .about-us h1 {
     text-align: left; /* Aligns the title to the left */
@@ -127,10 +136,10 @@ body {
     margin: 20px 0; /* Add some vertical space around the image */
   }
   
-  .image-gallery img {
+.image-gallery img {
     max-width: 100%; /* Make sure the image is responsive and fits its container */
     height: auto; /* Maintain aspect ratio */
-  }
+}
 
 .footer {
     background-color: #FBFDF4; /* Dark background color for the footer */
@@ -193,21 +202,51 @@ body {
     list-style: none; /* Removes the default list-style */
     padding: 0; /* Removes the default padding */
     margin: 1em 0; /* Adds some space above and below the list */
-  }
+}
   
 .resGoals li {
     font-size: 20px;
     padding-left: 1em; /* Add padding to the left of list items */
     text-indent: -1em; /* Indents the text to align with content above */
     margin-bottom: 0.5em; /* Adds space between list items */
-  }
+}
   
 .resGoals li::before {
     content: "• "; /* Adds a bullet before each list item */
     color: #1f7a39; /* Bullet color */
     font-weight: bold; /* Makes the bullet bold */
-  }
+}
 
 /* font-family: "Poppins", sans-serif; 
 font-weight: 400;
 font-style: normal; */
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.list-column {
+    flex: 1; /* Adjust the flex basis as necessary to control width */
+    margin-right: 20px; /* Space between list and image */
+}
+  
+.list-column ol {
+    padding-left: 20px; /* Standard padding for ordered lists */
+}
+
+.list-column ol li {
+    margin-bottom: 10px;
+}
+
+.image-column {
+    flex: 2; /* Adjust the flex basis as necessary to control width */
+    text-align: center; /* Center the image if it's not as wide as the column */
+}
+  
+.image-column img {
+    width: 100%; /* Use a percentage width for responsiveness */
+    max-width: 600px; /* Maximum size of the image */
+    height: auto; /* Maintain aspect ratio */
+}

@@ -1,0 +1,47 @@
+<%- include("partials/headermod.ejs") %> 
+
+<header class="header">
+    <div class="header-content">
+        <img src="/SB_logo.png" href="#" alt="Sunnybrook Research Institute Logo" class="logo">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="/community-insights" class="nav-link">Community Insights</a></li>
+            <li class="nav-item"><a href="/research" class="nav-link">Our Research</a></li>
+            <li class="nav-item"><a href="/guide" class="nav-link">Getting started Guide</a></li>
+          </ul>
+        </nav>
+        <form action="/" method="POST">
+            <button type="submit" class="button-1">Home</button>
+        </form>
+      </div>
+</header>
+
+<body>
+    <section class="about-us">
+        <h1>Community <span class="emphasis">Insights</span>
+        </h1>
+    </section>
+    <section class="outer-wrapper">
+        <h2>Contact us!</h2>
+        <p>Reach out to us about any issues or feedback regarding website development, content display, or user experience and we will be glad to discuss any concerns! <br> Note: please contact development for website related issues.</p>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input class="form-control" type="text" value="xyz@outlook.com" aria-label="Disabled input example" disabled readonly>
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Address</label>
+                <input class="form-control" type="text" value="27 King's College Cir, Toronto, ON M5S 1A1" aria-label="Disabled input example" disabled readonly>
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email (development)</label>
+                <input class="form-control" type="text" value="xyz@outlook.com" aria-label="Disabled input example" disabled readonly>
+            </div>
+
+        </form>
+    </section>
+
+</body>
+
+
+<%- include("partials/footer.ejs") %> 

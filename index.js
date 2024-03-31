@@ -21,6 +21,14 @@ app.get("/research", async (req, res) => {
     res.render("ourresearch.ejs");
 });
 
+app.get("/guide", async (req, res) => {
+  res.render("guide.ejs");
+});
+
+app.get("/community-insights", async (req, res) => {
+  res.render("insights.ejs");
+});
+
 app.post("/", (req, res) => {
   res.redirect("/");
 });
