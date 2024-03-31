@@ -267,24 +267,29 @@ font-style: normal; */
     max-width: 1200px; /* Adjust to match the width of the rest of your content */
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+}
   
-  .faq-column-questions,
-  .faq-column-answers {
+.faq-column-questions,
+.faq-column-answers {
     flex: 1; /* Assign equal width to both columns */
     padding: 0 20px; /* Add some spacing inside the columns */
-  }
+}
   
-  .faq-column-questions ol,
-  .faq-column-answers ul {
+.faq-column-questions ol,
+.faq-column-answers ul {
     list-style: none; /* Removes default list styling */
     padding: 0; /* Removes default padding */
-  }
+}
   
-  .faq-column-answers ul {
-    padding-left: 20px; /* If you want bullet points, this will indent the answers */
-  }
-  
-  .faq-section li + li {
-    margin-top: 10px; /* Adds spacing between list items */
-  }
+.faq-section li + li {
+    margin-top: 15px; /* Adds spacing between list items */
+}
+
+.link{
+    text-decoration: none;
+    color: #1f7a39;
+}
+
+.link:hover{
+    color: #29a34b;
+}
