@@ -293,3 +293,90 @@ font-style: normal; */
 .link:hover{
     color: #29a34b;
 }
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the children */
+    margin-top: 50px; /* Or any space you want from the top of the page */
+    margin-bottom: 40px;
+}
+  
+  .video-title h2 {
+    margin: 0 0 10px; /* No margin at the top and bottom, and some space above the video player */
+    padding: 0; /* No padding */
+}
+  
+  #video-box {
+    width: 800px; /* Adjust the width as needed */
+    height: 450px; /* Adjust the height as needed for a 16:9 aspect ratio */
+    background-color: #eff7d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+  
+  #video-box p {
+    position: absolute;
+    z-index: 10;
+}
+  
+  #video-player {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.clip-details-container {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+  }
+  
+  .clip-details h3, .rating-scale p {
+    color: white;
+  }
+  
+  .clip-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .clip-details li {
+    margin-bottom: 5px;
+  }
+  
+  .clip-details li span {
+    font-weight: bold;
+  }
+  
+  .rating-scale .circles {
+    display: flex;
+    justify-content: space-between; /* Space out circles evenly */
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white; /* White border */
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #555; /* Slightly lighter grey for circles */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+  }
+  
+  .circle:hover {
+    transform: scale(1.3); /* Enlarge circle on hover */
+  }
+  
+  .circle:focus {
+    outline: none;
+    background-color: #aaa; /* Highlight color for keyboard navigation */
+  }
