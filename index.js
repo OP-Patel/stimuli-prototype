@@ -15,4 +15,12 @@ app.listen(port, () => {
 
 app.get("/", async (req, res) => {
     res.render("index.ejs");
+  });
+
+app.get("/research", async (req, res) => {
+    res.render("ourresearch.ejs");
+});
+
+app.post("/", (req, res) => {
+  res.redirect("/");
 });

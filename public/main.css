@@ -36,7 +36,6 @@
   
 .nav-item .nav-link:hover {
     color: #29a34b; /*highlight color on hover*/
-    text-decoration: underline;
 }
 /*might need to add a visted color afterwards, since it reverts back to simply blue*/
 
@@ -83,20 +82,62 @@
     padding: 0 25px;
   }
 }
-  
-.body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
 
+.body{
+    height: 100vh; /* fix later */
+}  
+
+.emphasis{
+    color: #1f7a39; 
+    letter-spacing: 3px;
+    font-weight: 600;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FBFDF4 !important;
+}
+  
+.about-us {
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the section */
+    padding: 20px;
+    background-color: #FBFDF4;
+}
+  
+.about-us h1 {
+    text-align: left; /* Aligns the title to the left */
+    font-weight: 400; /* Adjust as needed */
+    color: #000; /* Title color */
+    margin-bottom: 20px; /* Spacing after the title */
+    text-decoration: underline;
+}
+  
+.about-us p {
+    font-weight: 400; /* Adjust as needed */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+    font-size: 20px;
+}
+  
+.image-gallery {
+    display: block; /* No longer need flex if only one image is shown */
+    text-align: center; /* This will center the image in the container */
+    margin: 20px 0; /* Add some vertical space around the image */
+  }
+  
+  .image-gallery img {
+    max-width: 100%; /* Make sure the image is responsive and fits its container */
+    height: auto; /* Maintain aspect ratio */
+  }
 
 .footer {
     background-color: #FBFDF4; /* Dark background color for the footer */
     color: black; /* White text color */
-  }
+}
   
-  .footer-content {
+.footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center; /* This centers the items vertically */
@@ -104,49 +145,68 @@
     max-width: 1200px;
     margin: 0 auto;
     border-top: 1px solid #AFB1AA; 
-  }
+}
   
-  .footer-logo {
+.footer-logo {
     width: 50px; /* Example width for your logo */
     height: auto; /* Maintain aspect ratio */
-  }
+}
   
-  .footer-nav {
+.footer-nav {
     display: flex; /* Align the navigation horizontally */
-  }
+}
   
-  .footer-nav ul {
+.footer-nav ul {
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0; /* Reset default margin */
     align-items: center; /* Center align the nav items vertically */
-  }
+}
   
-  .footer-item {
+.footer-item {
     margin: 0 10px; /* Adjust spacing between navigation items */
-  }
+}
   
-  .footer-link {
+.footer-link {
     color: black;
     text-decoration: none;
     font-family: "Poppins", sans-serif; 
     font-weight: 400;
     font-style: normal; 
     font-size: 15px;
-  }
+}
   
-  .footer-link:hover {
-    text-decoration: underline;
-  }
+.footer-link:hover {
+    color: #29a34b; /*highlight color on hover*/
+}
 
-  .copyright { 
+.copyright { 
     font-family: "Poppins", sans-serif; 
     font-weight: 400;
     font-style: normal; 
     font-size: 15px;
-  }
+}
 
+.resGoals {
+    
+    list-style: none; /* Removes the default list-style */
+    padding: 0; /* Removes the default padding */
+    margin: 1em 0; /* Adds some space above and below the list */
+  }
+  
+.resGoals li {
+    font-size: 20px;
+    padding-left: 1em; /* Add padding to the left of list items */
+    text-indent: -1em; /* Indents the text to align with content above */
+    margin-bottom: 0.5em; /* Adds space between list items */
+  }
+  
+.resGoals li::before {
+    content: "• "; /* Adds a bullet before each list item */
+    color: #1f7a39; /* Bullet color */
+    font-weight: bold; /* Makes the bullet bold */
+  }
 
 /* font-family: "Poppins", sans-serif; 
 font-weight: 400;
