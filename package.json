@@ -1,0 +1,20 @@
+{
+  "name": "media_rater",
+  "version": "1.0.0",
+  "description": "<h1> Media Rater Design Prototype </h1> This repository is the source code behind the initial prototype for the Media Rater Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "git": "^0.1.5",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.0"
+  }
+}
