@@ -247,7 +247,7 @@ font-style: normal; */
   
 .image-column img {
     width: 100%; /* Use a percentage width for responsiveness */
-    max-width: 600px; /* Maximum size of the image */
+    max-width: 700px; /* Maximum size of the image */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -403,4 +403,13 @@ font-style: normal; */
     align-items: center; /* Center-align buttons vertically */
     justify-content: space-between; /* Space out buttons */
     margin-bottom: 10px; /* Space below buttons before the scale */
-  }
+}
+
+#note {
+    font-size: 15px;
+}
+
+#guide-im2{
+    max-height: 500px;
+    height: auto; 
+}
