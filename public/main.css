@@ -45,8 +45,6 @@
     transition: color 0.3s ease;
 }
   
-
-/* CSS */
 .button-1 {
   background-color: #88E1A1;
   border: 2px solid #422800;
@@ -101,55 +99,55 @@ body {
 }
   
 .about-us {
-    max-width: 1200px; /* Adjust the width as needed */
-    margin: 0 auto; /* Centers the section */
+    max-width: 1200px; 
+    margin: 0 auto; 
     padding: 20px;
     background-color: #FBFDF4;
 }
 
 .outer-wrapper {
-    max-width: 1200px; /* Adjust the width as needed */
+    max-width: 1200px;
     height: auto;
-    margin: 0 auto; /* Centers the section */
+    margin: 0 auto; 
     padding: 20px;
     background-color: #FBFDF4;
 }
   
   
 .about-us h1 {
-    text-align: left; /* Aligns the title to the left */
-    font-weight: 400; /* Adjust as needed */
-    color: #000; /* Title color */
-    margin-bottom: 20px; /* Spacing after the title */
+    text-align: left; 
+    font-weight: 400;
+    color: #000; 
+    margin-bottom: 20px; 
     text-decoration: underline;
 }
   
 .about-us p {
-    font-weight: 400; /* Adjust as needed */
-    margin-bottom: 20px; /* Spacing between paragraphs */
+    font-weight: 400; 
+    margin-bottom: 20px; 
     font-size: 20px;
 }
   
 .image-gallery {
-    display: block; /* No longer need flex if only one image is shown */
-    text-align: center; /* This will center the image in the container */
-    margin: 20px 0; /* Add some vertical space around the image */
+    display: block;
+    text-align: center; 
+    margin: 20px 0; 
   }
   
 .image-gallery img {
-    max-width: 100%; /* Make sure the image is responsive and fits its container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; /* aspect ratio */
 }
 
 .footer {
-    background-color: #FBFDF4; /* Dark background color for the footer */
-    color: black; /* White text color */
+    background-color: #FBFDF4; 
+    color: black; 
 }
   
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* This centers the items vertically */
+    align-items: center; 
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -157,24 +155,24 @@ body {
 }
   
 .footer-logo {
-    width: 50px; /* Example width for your logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px;
+    height: auto;
 }
   
 .footer-nav {
-    display: flex; /* Align the navigation horizontally */
+    display: flex; 
 }
   
 .footer-nav ul {
     list-style: none;
     display: flex;
     padding: 0;
-    margin: 0; /* Reset default margin */
-    align-items: center; /* Center align the nav items vertically */
+    margin: 0; 
+    align-items: center; 
 }
   
 .footer-item {
-    margin: 0 10px; /* Adjust spacing between navigation items */
+    margin: 0 10px; 
 }
   
 .footer-link {
@@ -199,22 +197,22 @@ body {
 
 .resGoals {
     
-    list-style: none; /* Removes the default list-style */
-    padding: 0; /* Removes the default padding */
-    margin: 1em 0; /* Adds some space above and below the list */
+    list-style: none; 
+    padding: 0; 
+    margin: 1em 0; 
 }
   
 .resGoals li {
     font-size: 20px;
-    padding-left: 1em; /* Add padding to the left of list items */
-    text-indent: -1em; /* Indents the text to align with content above */
-    margin-bottom: 0.5em; /* Adds space between list items */
+    padding-left: 1em; 
+    text-indent: -1em; 
+    margin-bottom: 0.5em; 
 }
   
 .resGoals li::before {
-    content: "• "; /* Adds a bullet before each list item */
-    color: #1f7a39; /* Bullet color */
-    font-weight: bold; /* Makes the bullet bold */
+    content: "• "; 
+    color: #1f7a39; 
+    font-weight: bold; 
 }
 
 /* font-family: "Poppins", sans-serif; 
@@ -228,12 +226,12 @@ font-style: normal; */
 }
   
 .list-column {
-    flex: 1; /* Adjust the flex basis as necessary to control width */
-    margin-right: 20px; /* Space between list and image */
+    flex: 1; 
+    margin-right: 20px; 
 }
   
 .list-column ol {
-    padding-left: 20px; /* Standard padding for ordered lists */
+    padding-left: 20px; 
 }
 
 .list-column ol li {
@@ -241,14 +239,14 @@ font-style: normal; */
 }
 
 .image-column {
-    flex: 2; /* Adjust the flex basis as necessary to control width */
-    text-align: center; /* Center the image if it's not as wide as the column */
+    flex: 2; 
+    text-align: center; 
 }
   
 .image-column img {
-    width: 100%; /* Use a percentage width for responsiveness */
-    max-width: 700px; /* Maximum size of the image */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 700px; 
+    height: auto; 
 }
 
 
@@ -264,25 +262,25 @@ font-style: normal; */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1200px; /* Adjust to match the width of the rest of your content */
+    max-width: 1200px; 
     padding-top: 20px;
     padding-bottom: 20px;
 }
   
 .faq-column-questions,
 .faq-column-answers {
-    flex: 1; /* Assign equal width to both columns */
-    padding: 0 20px; /* Add some spacing inside the columns */
+    flex: 1; 
+    padding: 0 20px; 
 }
   
 .faq-column-questions ol,
 .faq-column-answers ul {
-    list-style: none; /* Removes default list styling */
-    padding: 0; /* Removes default padding */
+    list-style: none; 
+    padding: 0; 
 }
   
 .faq-section li + li {
-    margin-top: 15px; /* Adds spacing between list items */
+    margin-top: 15px; 
 }
 
 .link{
@@ -297,19 +295,19 @@ font-style: normal; */
 .video-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the children */
-    margin-top: 50px; /* Or any space you want from the top of the page */
+    align-items: center; 
+    margin-top: 50px;
     margin-bottom: 40px;
 }
   
   .video-title h2 {
-    margin: 0 0 10px; /* No margin at the top and bottom, and some space above the video player */
-    padding: 0; /* No padding */
+    margin: 0 0 10px; 
+    padding: 0;
 }
   
   #video-box {
-    width: 800px; /* Adjust the width as needed */
-    height: 450px; /* Adjust the height as needed for a 16:9 aspect ratio */
+    width: 800px; 
+    height: 450px;
     background-color: #eff7d4;
     display: flex;
     justify-content: center;
@@ -330,12 +328,12 @@ font-style: normal; */
 
 
 .clip-details-container {
-    background-color: #eff7d4; /* Dark background */
+    background-color: #eff7d4; 
     color: black;
     padding: 20px;
     border-radius: 10px;
-    width: 800px; /* Adjust width based on content */
-    margin: auto; /* Center the container */
+    width: 800px; 
+    margin: auto; 
     border: 2px solid #AFB1AA;
 }
   
@@ -358,9 +356,9 @@ font-style: normal; */
 
 .rating-scale .circles {
     display: flex;
-    justify-content: center; /* Center the circles */
+    justify-content: center; 
     align-content: center;
-    gap: 10px; /* Adjust the gap between circle containers */
+    gap: 10px; 
 }
   
 .circle-container {
@@ -370,22 +368,22 @@ font-style: normal; */
 }
   
 .circle-number {
-    margin-bottom: 5px; /* Space above the circle */
+    margin-bottom: 5px; 
 }
   
 .circle {
-    width: 30px; /* Adjust width for a larger circle */
-    height: 30px; /* Adjust height for a larger circle */
-    border: 2px solid black; /* White border for circle */
-    border-radius: 50%; /* Rounded edges to make it a circle */
-    background-color: white; /* Default color for circles */
-    margin: 0 5px; /* Adjust spacing between circles */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for color change */
+    width: 30px; 
+    height: 30px; 
+    border: 2px solid black; 
+    border-radius: 50%;
+    background-color: white; 
+    margin: 0 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
   
 .circle-highlighted {
-    background-color: #88E1A1; /* Highlight color for selected circles */
+    background-color: #88E1A1; 
 }
 
 
@@ -399,10 +397,10 @@ font-style: normal; */
 
 
 .btn-container {
-    display: flex; /* Use flexbox to layout buttons */
-    align-items: center; /* Center-align buttons vertically */
-    justify-content: space-between; /* Space out buttons */
-    margin-bottom: 10px; /* Space below buttons before the scale */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 10px; 
 }
 
 #note {

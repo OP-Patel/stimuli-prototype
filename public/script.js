@@ -1,16 +1,10 @@
 document.getElementById('video-box').addEventListener('click', function() {
     var videoPlayer = document.getElementById('video-player');
-    var placeholderText = this.querySelector('p'); // Access the placeholder paragraph
+    var placeholderText = this.querySelector('p');
   
-    // Hide the placeholder text
     placeholderText.style.display = 'none';
-  
-    // Show the video player
     videoPlayer.style.display = 'block';
-  
-    // Attempt to play the video
     videoPlayer.play().catch(function(error) {
-      // If there's an error when trying to play, log it to the console
       console.error("Video play failed", error);
     });
 });
@@ -22,16 +16,15 @@ document.querySelectorAll('.circle-container').forEach(container => {
     const rating = parseInt(container.dataset.rating, 10);
   
     circle.addEventListener('click', () => {
-      currentRating = rating; // Update the current rating
-      highlightCircles(rating); // Update the highlighted circles
+      currentRating = rating;
+      highlightCircles(rating); 
     });
   
     circle.addEventListener('mouseenter', () => {
-      highlightCircles(rating); // Highlight circles on mouse enter
+      highlightCircles(rating); 
     });
   
     circle.addEventListener('mouseleave', () => {
-      // When leaving the circle, only highlight the current rating
       highlightCircles(currentRating);
     });
 });
@@ -50,7 +43,7 @@ function highlightCircles(upToRating) {
 
 
 function clearRating() {
-    currentRating = 0; // Reset current rating
-    highlightCircles(0); // Remove highlighting from all circles
+    currentRating = 0; //reset current rating
+    highlightCircles(0); 
 }
   
