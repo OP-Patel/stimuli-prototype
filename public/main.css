@@ -448,3 +448,7 @@ font-style: normal; */
     max-height: 500px;
     height: auto; 
 }
+
+#hidden_section{
+    visibility: hidden;
+}

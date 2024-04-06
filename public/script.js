@@ -103,7 +103,7 @@ function handleSubmit() {
       document.getElementById('sub-btn3').disabled = true;
       document.getElementById('video-player').style.display = 'none';
       var videoBoxText = document.getElementById('video-box').querySelector('p');
-      videoBoxText.style.display = 'none'; // Optionally hide the placeholder text
+      videoBoxText.style.display = 'none'; //hide the placeholder text
       document.getElementById('media-details').style.display = 'none';
       document.getElementById('main_container').style.display = 'none';
     }
