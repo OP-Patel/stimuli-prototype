@@ -1,10 +1,17 @@
 <h1> Media Rater Design Prototype </h1>
 This repository is the source code behind the initial prototype for the Media Rater Design. This is a work in progress.  
 
+<h1> Demo Video </h1>
+
+**Note**: This is functionality demo video, there is no sound recorded. Approx length: -30s. 
+
+[![Live Demo Thumbnail Link](https://img.youtube.com/vi/QBUIi6sa2BQ/0.jpg)](https://www.youtube.com/watch?v=QBUIi6sa2BQ)
+
+Use this link if there are any issues with playing: https://www.youtube.com/watch?v=QBUIi6sa2BQ
 
 <h1> Development Details </h1>
 
-**Current Status**: Finished front-end design. Working on alternating media functionality with JS. 
+**Current Status**: Finished thank you page. Working on backend database.
 
 **Front-End** (languages & frameworks): HTML, CSS, JavaScript, Embedded JavaScript (templating), Bootstrap  
 **Back-End** (languages & frameworks): Node.js, MongoDB*, Passport.js* 
@@ -12,7 +19,7 @@ This repository is the source code behind the initial prototype for the Media Ra
 _*: Are currently planned to be integrated_
 
 **Start Date**: March 28, 2024  
-**Active Development Time**: ~20hrs (As of April 4, 2024)
+**Active Development Time**: ~21hrs (As of April 8, 2024)
 
 <h1> Front-End Design </h1>
 
