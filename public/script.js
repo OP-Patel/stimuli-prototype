@@ -106,6 +106,7 @@ function handleSubmit() {
       videoBoxText.style.display = 'none'; //hide the placeholder text
       document.getElementById('media-details').style.display = 'none';
       document.getElementById('main_container').style.display = 'none';
+      document.getElementById('hidden_section').style.display = 'block';
     }
 }
  

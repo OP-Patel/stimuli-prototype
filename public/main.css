@@ -450,5 +450,31 @@ font-style: normal; */
 }
 
 #hidden_section{
-    visibility: hidden;
+    display: none;
+    height: 84vh;
+}
+
+.hidden_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 84vh;
+}
+
+.hidden_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden_content_wrapper h1,
+.hidden_content_wrapper p,
+.hidden_content_wrapper svg {
+    margin: 10px 0;
+}
+
+.hidden_content_wrapper svg {
+    max-width: 100%;
+    height: auto;
 }
