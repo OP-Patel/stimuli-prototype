@@ -8,7 +8,7 @@
               <h2 id="video-title">Media - #1</h2>
             </div>
             <div id="video-box" style="cursor: pointer;">
-              <p>Click here to see Media - #1</p>
+              <p id="clickHereText">Click <span id="clickHereEmp">here</span> to see Media - #1</p>
               <!-- Hidden video element -->
               <video id="video-player" controls style="display:none;">
                 <source src="joy-image1.mp4" type="video/mp4">
@@ -23,12 +23,12 @@
             <div class="clip-details">
               <h3>Media Details:</h3>
               <ul>
-                <li>Genre: <span id="genre">Art - Generated AI</span></li>
+                <li>Genre: <span id="genre">Art - Generated AI</span></li> 
                 <li>Duration: <span id="duration">0:10s</span></li>
                 <li>Media Type: <span id="media-type">Image</span></li>
               </ul>
               <div class="rating-scale">
-                <p>Rate the <span class="emphasis" id="emotion_measured">happiness</span> <br> <span id="note">Note: 10 refers to the best, and 1 refers to the worst</span></p>
+                <p id="rate-emo">Rate the <span class="emphasis" id="emotion_measured">happiness</span></p>
                 <div class="circles">
                   <!-- Rating circles: 1-10 -->
                   <div class="btn-container">
