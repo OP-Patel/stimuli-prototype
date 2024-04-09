@@ -48,9 +48,6 @@ function clearRating() {
 }
 
 
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
   //array of videos --> update with new clips so the functions below can work
   var videos = [
@@ -94,10 +91,11 @@ function handleSubmit() {
     updateVideoDetails(videos[currentIndex]);
     
     //hide the video player and show the placeholder text for the new video
+    let videoBoxText = document.getElementById('video-box').querySelector('p');
     document.getElementById('video-player').style.display = 'none';
-    var videoBoxText = document.getElementById('video-box').querySelector('p');
     videoBoxText.style.display = 'block';
-    var clickableSpan = videoBoxText.querySelector('#clickHereEmp');
+
+    let clickableSpan = videoBoxText.querySelector('#clickHereEmp');
     //had to adjust due to span
     videoBoxText.childNodes[0].nodeValue = 'Click '; //update the text before the <span>
     clickableSpan.nextSibling.nodeValue = ` to see Media - ${videos[currentIndex].text}`; 
@@ -105,8 +103,8 @@ function handleSubmit() {
       document.getElementById('sub-btn2').disabled = true;
       document.getElementById('sub-btn3').disabled = true;
       document.getElementById('video-player').style.display = 'none';
-      var videoBoxText = document.getElementById('video-box').querySelector('p');
-      videoBoxText.style.display = 'none'; //hide the placeholder text
+      var videoBoxText2 = document.getElementById('video-box').querySelector('p');
+      videoBoxText2.style.display = 'none'; //hide the placeholder text
       document.getElementById('media-details').style.display = 'none';
       document.getElementById('main_container').style.display = 'none';
       document.getElementById('hidden_section').style.display = 'block';
