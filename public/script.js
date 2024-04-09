@@ -97,9 +97,8 @@ function handleSubmit() {
     document.getElementById('video-player').style.display = 'none';
     var videoBoxText = document.getElementById('video-box').querySelector('p');
     videoBoxText.style.display = 'block';
-    var videoBoxText = document.querySelector('#video-box p');
     var clickableSpan = videoBoxText.querySelector('#clickHereEmp');
-    //had to adjust due to the span 
+    //had to adjust due to span
     videoBoxText.childNodes[0].nodeValue = 'Click '; //update the text before the <span>
     clickableSpan.nextSibling.nodeValue = ` to see Media - ${videos[currentIndex].text}`; 
     } else { //end of the array
