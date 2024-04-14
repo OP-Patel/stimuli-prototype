@@ -16,6 +16,11 @@ Use this link if there are any issues with playing: https://www.youtube.com/watc
 **Front-End** (languages & frameworks): HTML, CSS, JavaScript, Embedded JavaScript (templating), Bootstrap  
 **Back-End** (languages & frameworks): Node.js, MongoDB*, Passport.js* 
 
+**Media-Creds**: 
+
+(1) AVIA: https://www.youtube.com/watch?v=gA03iyI3yEA <br>
+(2) ROCKET LEAGUE FX: https://www.youtube.com/watch?v=D0wsMxQbeCQ
+
 _*: Are currently planned to be integrated_
 
 **Start Date**: March 28, 2024  
