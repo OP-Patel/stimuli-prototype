@@ -1,5 +1,5 @@
 <h1> Media Rater Design Prototype </h1>
-This repository is the source code behind the initial prototype for the Media Rater Design. This is a work in progress.  
+This repository is the source code behind the initial prototype for the Media Rater Design.
 
 <h1> Demo Video </h1>
 
@@ -11,20 +11,15 @@ Use this link if there are any issues with playing: https://www.youtube.com/watc
 
 <h1> Development Details </h1>
 
-**Current Status**: Finished thank you page. Working on backend database.
-
-**Front-End** (languages & frameworks): HTML, CSS, JavaScript, Embedded JavaScript (templating), Bootstrap  
-**Back-End** (languages & frameworks): Node.js, MongoDB*, Passport.js* 
+**Current Status**: The prototype has been completed.
 
 **Media-Creds**: 
 
 (1) AVIA: https://www.youtube.com/watch?v=gA03iyI3yEA <br>
 (2) ROCKET LEAGUE FX: https://www.youtube.com/watch?v=D0wsMxQbeCQ
 
-_*: Are currently planned to be integrated_
-
 **Start Date**: March 28, 2024  
-**Active Development Time**: ~21hrs (As of April 8, 2024)
+**Development Time**: ~21hrs (including planning time) 
 
 <h1> Front-End Design </h1>
 
